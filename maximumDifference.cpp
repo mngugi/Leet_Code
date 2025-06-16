@@ -1,4 +1,4 @@
-**Problem Analysis**
+** Problem Analysis **
 
 My first thoughts on how to solve this problem were to identify the maximum difference between any two elements in the given array,
 where the array contains duplicate elements. I considered iterating through the array to keep track of the minimum value seen so far 
