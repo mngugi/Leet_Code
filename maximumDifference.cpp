@@ -1,3 +1,7 @@
+#include <vector>
+#include <algorithm> // for std::max
+using namespace std;
+
 class Solution {
 public:
     int maximumDifference(vector<int>& nums) {
