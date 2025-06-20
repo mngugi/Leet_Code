@@ -1,2 +1,2 @@
 # Leet_Code
-leet Code exercises and solutions for coding practice.
+**Leet Code** exercises and solutions for coding practice.
