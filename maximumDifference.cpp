@@ -1,3 +1,4 @@
+/**
 **Problem Analysis**
 
 My first thoughts on how to solve this problem were to identify the maximum difference between any two elements in the given array,
@@ -21,44 +22,28 @@ Your code looks correct and follows the approach I described. However, I'd like 
 could be more descriptive. Consider renaming it to maxDifference to better reflect its purpose.
 
 # Code
-```cpp []
-class Solution {
-public:
-    int maximumDifference(vector<int>& nums) {
-        int minVal = nums[0];
-        int maxDiff = -1;
-
-        for (int i = 1; i < nums.size(); ++i) {
-            if (nums[i] > minVal) {
-                maxDiff = max(maxDiff, nums[i] - minVal);
-            } else {
-                minVal = nums[i]; 
-            }
-        }
-       return maxDiff; 
-    }
-};
-```
-
-**Solution**
+*/
 
 #include <vector>
-#include <algorithm> // for std::max
+#include <algorithm>
 using namespace std;
 
 class Solution {
 public:
     int maximumDifference(vector<int>& nums) {
-        int minVal = nums[0];
-        int maxDiff = -1;
+        if (nums.size() < 2) return -1; // Optional safety check
+
+        int minValue = nums[0];
+        int maxDifference = -1;
 
         for (int i = 1; i < nums.size(); ++i) {
-            if (nums[i] > minVal) {
-                maxDiff = max(maxDiff, nums[i] - minVal);
+            if (nums[i] > minValue) {
+                maxDifference = max(maxDifference, nums[i] - minValue);
             } else {
-                minVal = nums[i]; 
+                minValue = nums[i];
             }
         }
-       return maxDiff; 
+
+        return maxDifference;
     }
 };
