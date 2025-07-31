@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Spyder Editor
-Author : Mwangi
+Author :Peter Mwangi
 Purpose : Leet Recap
 programming starts at function modules
 """
