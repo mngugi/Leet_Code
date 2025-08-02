@@ -15,6 +15,11 @@ print("House Component", building_house())
 
 # program to print softkwlist using functions
 
+def building_commercial():
+    commercial = "Foundation", "Walls", "Roof", "Windows", "Doors"
+    return commercial
+print("Commercial Building Components", building_commercial())  
+
 def keywords():
     key_words = keyword.softkwlist
     return key_words
