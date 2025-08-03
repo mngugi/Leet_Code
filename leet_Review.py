@@ -20,6 +20,12 @@ def building_commercial():
     return commercial
 print("Commercial Building Components", building_commercial())  
 
+
+def building_shed():
+    shed = "Foundation", "Walls", "Roof", "Doors"
+    return commercial
+print("Commercial Building Components", building_commercial())  
+
 def keywords():
     key_words = keyword.softkwlist
     return key_words
