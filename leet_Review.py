@@ -5,7 +5,6 @@ Author :Peter Mwangi
 Purpose : Leet Recap
 programming starts at function modules
 """
-import os
 import keyword 
 
 def building_house():
