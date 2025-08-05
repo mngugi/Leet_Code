@@ -21,7 +21,7 @@ print("Commercial Building Components", building_commercial())
 
 
 def building_shed():
-    shed = "Foundation", "Walls", "Roof", "Doors"
+    shed = "Foundation", "Walls", "Roof", "Doors", "columns"
     return commercial
 print("Commercial Building Components", building_commercial())  
 
