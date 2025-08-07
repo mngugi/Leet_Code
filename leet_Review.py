@@ -12,7 +12,7 @@ def building_house():
 print("House Component", building_house()) 
 
 # program to print softkwlist using functions
-
+# building a commercial building
 def building_commercial():
     commercial = "Foundation", "Walls", "Roof", "Windows", "Doors"
     return commercial
